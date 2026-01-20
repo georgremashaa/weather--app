@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!-- IMPORTANT: Replace the value below with your real OpenWeatherMap API key.
+         See the README or instructions in the project for how to add the real key locally. -->
+    <string name="openweather_api_key">REPLACE_WITH_YOUR_API_KEY</string>
+
+    <string name="hint_search_city">Enter city name</string>
+    <string name="search">Search</string>
+    <string name="last_searched">Last searched:</string>
+    <string name="temp_unit_celsius">°C</string>
+    <string name="temp_unit_fahrenheit">°F</string>
+    <string name="error_no_data">No data available</string>
+    <string name="error_invalid_city">City not found</string>
+</resources>

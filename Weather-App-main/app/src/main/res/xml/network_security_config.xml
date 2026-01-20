@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Default: use system trusted CAs -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Allow cleartext for openweathermap domain if necessary -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">openweathermap.org</domain>
+    </domain-config>
+</network-security-config>
